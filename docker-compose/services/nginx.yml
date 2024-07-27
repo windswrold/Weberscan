@@ -5,7 +5,7 @@ services:
     image: nginx
     container_name: proxy
     extra_hosts:
-      - 'host.docker.internal:host-gateway'
+      - 'host.docker.internal:172.19.216.55'
     volumes:
       - "../proxy:/etc/nginx/templates"
     environment:
