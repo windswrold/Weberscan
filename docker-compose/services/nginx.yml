@@ -5,7 +5,7 @@ services:
     image: nginx
     container_name: proxy
     extra_hosts:
-      - 'demo.zuulee.xyz:host-gateway'
+      - 'testnet.myweber.org:host-gateway'
     volumes:
       - "../proxy:/etc/nginx/templates"
     environment:
